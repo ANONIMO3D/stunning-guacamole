@@ -520,3 +520,8 @@
 [28Nov2024 02:37:53.455] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
 [28Nov2024 02:37:53.507] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
 [28Nov2024 02:37:53.555] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
+[28Nov2024 02:40:18.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi fell from a high place
+[28Nov2024 02:40:28.194] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[28Nov2024 02:40:28.195] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[28Nov2024 02:41:54.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Isn't It Iron Pick]
+[28Nov2024 02:43:23.864] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9367ms or 187 ticks behind
