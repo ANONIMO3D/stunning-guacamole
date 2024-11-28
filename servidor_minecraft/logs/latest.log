@@ -507,3 +507,6 @@
 [28Nov2024 02:08:16.846] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [28Nov2024 02:08:35.201] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vagabundi[/127.234.170.183:39673] logged in with entity id 75 at (195.93409530528024, 62.17675927506424, 561.0823487130315)
 [28Nov2024 02:08:35.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi joined the game
+[28Nov2024 02:27:09.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi fell from a high place
+[28Nov2024 02:27:10.303] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[28Nov2024 02:27:10.305] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
