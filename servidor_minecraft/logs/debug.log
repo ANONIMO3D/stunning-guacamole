@@ -3747,3 +3747,42 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [28Nov2024 03:17:30.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
 [28Nov2024 03:17:30.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
 [28Nov2024 03:17:30.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
+[28Nov2024 03:18:20.910] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:18:20.911] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:18:20.913] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
+[28Nov2024 03:18:26.181] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Nov2024 03:18:26.188] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Nov2024 03:19:10.913] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:19:10.913] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:19:10.916] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
+[28Nov2024 03:20:00.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:20:00.907] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:20:00.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
+[28Nov2024 03:20:18.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> ven
+[28Nov2024 03:22:45.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <dani> donde
+[28Nov2024 03:22:51.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported Vagabundi to dani]
+[28Nov2024 03:23:26.187] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Nov2024 03:23:26.193] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[28Nov2024 03:24:00.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
+[28Nov2024 03:24:23.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Hot Stuff]
+[28Nov2024 03:24:40.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
+[28Nov2024 03:25:13.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani was slain by Vagabundi
+[28Nov2024 03:25:15.124] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[28Nov2024 03:25:15.128] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[28Nov2024 03:25:19.463] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['dani'/19800, l='ServerLevel[world]', x=211.29, y=63.00, z=529.54] died: Zombie Player was slain by Vagabundi
+[28Nov2024 03:25:23.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
+[28Nov2024 03:25:27.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> duerma en cama
+[28Nov2024 03:25:31.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <dani> mrc no tenia comida
+[28Nov2024 03:25:48.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Hot Stuff]
+[28Nov2024 03:26:04.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Suit Up]
+[28Nov2024 03:26:31.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi was slain by Enderman
+[28Nov2024 03:26:33.353] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[28Nov2024 03:26:33.353] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[28Nov2024 03:26:42.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Getting an Upgrade]
+[28Nov2024 03:27:11.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> escucha
+[28Nov2024 03:27:17.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> nesesito piera
+[28Nov2024 03:27:40.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> con essos picos gastalos todos
+[28Nov2024 03:28:00.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <dani> ok
+[28Nov2024 03:28:00.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> nesesitamso mucha para poder hacer la granja yt poder conseguir polvora
+[28Nov2024 03:28:26.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[28Nov2024 03:28:26.203] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

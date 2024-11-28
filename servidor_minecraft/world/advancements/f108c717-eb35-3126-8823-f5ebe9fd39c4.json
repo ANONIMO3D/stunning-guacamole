@@ -43,9 +43,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2024-11-28 03:14:14 +0000",
       "minecraft:spider": "2024-11-28 01:11:34 +0000",
       "minecraft:enderman": "2024-11-28 03:12:15 +0000",
-      "minecraft:zombie": "2024-11-28 01:11:41 +0000"
+      "minecraft:zombie": "2024-11-28 01:11:41 +0000",
+      "minecraft:zombie_villager": "2024-11-28 03:17:25 +0000"
     },
     "done": false
   },
@@ -77,6 +79,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-11-28 03:14:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2024-11-28 02:41:54 +0000"
@@ -86,6 +94,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2024-11-28 02:35:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-11-28 03:24:23 +0000"
     },
     "done": true
   },
