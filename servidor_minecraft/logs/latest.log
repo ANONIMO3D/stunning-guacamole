@@ -1,592 +1,73 @@
-[28Nov2024 02:07:20.886] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[28Nov2024 02:07:20.891] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[28Nov2024 02:07:21.165] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[28Nov2024 02:07:21.238] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/stunning-guacamole/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[28Nov2024 02:07:21.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/stunning-guacamole/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[28Nov2024 02:07:21.531] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/stunning-guacamole/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Nov2024 02:07:21.535] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/stunning-guacamole/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Nov2024 02:07:21.540] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/stunning-guacamole/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Nov2024 02:07:21.833] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[28Nov2024 02:07:21.837] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[28Nov2024 02:07:23.502] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28Nov2024 02:07:23.521] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[28Nov2024 02:07:25.541] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
-[28Nov2024 02:07:27.084] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[28Nov2024 02:07:33.748] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
-[28Nov2024 02:07:33.765] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
-[28Nov2024 02:07:34.103] [modloading-worker-0/INFO] [hordes/]: Config files are up to date, skipping data/asset generation
-[28Nov2024 02:07:34.188] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[28Nov2024 02:07:34.188] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[28Nov2024 02:07:34.837] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
-[28Nov2024 02:07:34.838] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
-[28Nov2024 02:07:34.844] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
-[28Nov2024 02:07:34.844] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
-[28Nov2024 02:07:34.845] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
-[28Nov2024 02:07:34.866] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
-[28Nov2024 02:07:34.888] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
-[28Nov2024 02:07:34.889] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
-[28Nov2024 02:07:34.889] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
-[28Nov2024 02:07:34.890] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
-[28Nov2024 02:07:34.892] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
-[28Nov2024 02:07:34.893] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
-[28Nov2024 02:07:34.893] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
-[28Nov2024 02:07:34.902] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
-[28Nov2024 02:07:34.906] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
-[28Nov2024 02:07:34.907] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
-[28Nov2024 02:07:34.916] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
-[28Nov2024 02:07:34.918] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
-[28Nov2024 02:07:34.920] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
-[28Nov2024 02:07:34.921] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
-[28Nov2024 02:07:34.923] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
-[28Nov2024 02:07:34.924] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
-[28Nov2024 02:07:34.925] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
-[28Nov2024 02:07:34.925] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
-[28Nov2024 02:07:34.926] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
-[28Nov2024 02:07:34.928] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
-[28Nov2024 02:07:34.930] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
-[28Nov2024 02:07:34.930] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
-[28Nov2024 02:07:34.935] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
-[28Nov2024 02:07:34.936] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
-[28Nov2024 02:07:34.938] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
-[28Nov2024 02:07:34.938] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
-[28Nov2024 02:07:34.956] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
-[28Nov2024 02:07:34.959] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:34.960] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
-[28Nov2024 02:07:34.961] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:34.962] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
-[28Nov2024 02:07:34.964] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
-[28Nov2024 02:07:34.965] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
-[28Nov2024 02:07:34.965] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
-[28Nov2024 02:07:34.966] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
-[28Nov2024 02:07:34.969] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
-[28Nov2024 02:07:34.969] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
-[28Nov2024 02:07:34.971] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
-[28Nov2024 02:07:34.971] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
-[28Nov2024 02:07:34.971] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
-[28Nov2024 02:07:34.972] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
-[28Nov2024 02:07:34.972] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
-[28Nov2024 02:07:34.973] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
-[28Nov2024 02:07:34.974] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
-[28Nov2024 02:07:34.975] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
-[28Nov2024 02:07:34.975] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
-[28Nov2024 02:07:34.976] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:34.977] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
-[28Nov2024 02:07:34.978] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
-[28Nov2024 02:07:34.979] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
-[28Nov2024 02:07:34.981] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:34.981] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
-[28Nov2024 02:07:34.989] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
-[28Nov2024 02:07:34.990] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
-[28Nov2024 02:07:34.990] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
-[28Nov2024 02:07:34.991] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
-[28Nov2024 02:07:34.993] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:34.993] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
-[28Nov2024 02:07:34.994] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
-[28Nov2024 02:07:35.026] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
-[28Nov2024 02:07:35.027] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
-[28Nov2024 02:07:35.030] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
-[28Nov2024 02:07:35.030] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
-[28Nov2024 02:07:35.033] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
-[28Nov2024 02:07:35.035] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
-[28Nov2024 02:07:35.037] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
-[28Nov2024 02:07:35.038] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
-[28Nov2024 02:07:35.039] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
-[28Nov2024 02:07:35.040] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
-[28Nov2024 02:07:35.041] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
-[28Nov2024 02:07:35.041] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
-[28Nov2024 02:07:35.042] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
-[28Nov2024 02:07:35.043] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
-[28Nov2024 02:07:35.045] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
-[28Nov2024 02:07:35.046] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
-[28Nov2024 02:07:35.058] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
-[28Nov2024 02:07:35.059] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
-[28Nov2024 02:07:35.059] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
-[28Nov2024 02:07:35.060] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
-[28Nov2024 02:07:35.061] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
-[28Nov2024 02:07:35.061] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
-[28Nov2024 02:07:35.061] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
-[28Nov2024 02:07:35.064] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.065] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
-[28Nov2024 02:07:35.066] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
-[28Nov2024 02:07:35.075] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.076] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
-[28Nov2024 02:07:35.078] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
-[28Nov2024 02:07:35.078] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
-[28Nov2024 02:07:35.079] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
-[28Nov2024 02:07:35.080] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
-[28Nov2024 02:07:35.081] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
-[28Nov2024 02:07:35.082] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
-[28Nov2024 02:07:35.083] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
-[28Nov2024 02:07:35.084] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
-[28Nov2024 02:07:35.084] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.085] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
-[28Nov2024 02:07:35.086] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
-[28Nov2024 02:07:35.086] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
-[28Nov2024 02:07:35.087] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
-[28Nov2024 02:07:35.088] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
-[28Nov2024 02:07:35.091] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
-[28Nov2024 02:07:35.091] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
-[28Nov2024 02:07:35.093] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
-[28Nov2024 02:07:35.094] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
-[28Nov2024 02:07:35.094] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
-[28Nov2024 02:07:35.095] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.095] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
-[28Nov2024 02:07:35.099] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
-[28Nov2024 02:07:35.103] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
-[28Nov2024 02:07:35.104] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
-[28Nov2024 02:07:35.105] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
-[28Nov2024 02:07:35.107] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
-[28Nov2024 02:07:35.108] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
-[28Nov2024 02:07:35.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
-[28Nov2024 02:07:35.112] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
-[28Nov2024 02:07:35.112] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
-[28Nov2024 02:07:35.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
-[28Nov2024 02:07:35.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
-[28Nov2024 02:07:35.114] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
-[28Nov2024 02:07:35.115] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
-[28Nov2024 02:07:35.116] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
-[28Nov2024 02:07:35.117] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
-[28Nov2024 02:07:35.118] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
-[28Nov2024 02:07:35.121] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
-[28Nov2024 02:07:35.122] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
-[28Nov2024 02:07:35.125] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
-[28Nov2024 02:07:35.133] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
-[28Nov2024 02:07:35.133] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.133] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
-[28Nov2024 02:07:35.134] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
-[28Nov2024 02:07:35.134] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
-[28Nov2024 02:07:35.135] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
-[28Nov2024 02:07:35.138] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.138] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
-[28Nov2024 02:07:35.139] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
-[28Nov2024 02:07:35.140] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
-[28Nov2024 02:07:35.141] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
-[28Nov2024 02:07:35.142] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
-[28Nov2024 02:07:35.143] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
-[28Nov2024 02:07:35.143] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
-[28Nov2024 02:07:35.143] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
-[28Nov2024 02:07:35.145] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
-[28Nov2024 02:07:35.147] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.148] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
-[28Nov2024 02:07:35.148] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.148] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
-[28Nov2024 02:07:35.150] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
-[28Nov2024 02:07:35.153] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
-[28Nov2024 02:07:35.155] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
-[28Nov2024 02:07:35.157] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
-[28Nov2024 02:07:35.157] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.158] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
-[28Nov2024 02:07:35.159] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
-[28Nov2024 02:07:35.161] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
-[28Nov2024 02:07:35.161] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
-[28Nov2024 02:07:35.162] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
-[28Nov2024 02:07:35.162] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
-[28Nov2024 02:07:35.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
-[28Nov2024 02:07:35.163] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
-[28Nov2024 02:07:35.176] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
-[28Nov2024 02:07:35.186] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
-[28Nov2024 02:07:35.186] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
-[28Nov2024 02:07:35.188] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
-[28Nov2024 02:07:35.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
-[28Nov2024 02:07:35.204] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
-[28Nov2024 02:07:35.205] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
-[28Nov2024 02:07:35.226] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
-[28Nov2024 02:07:35.227] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
-[28Nov2024 02:07:35.229] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
-[28Nov2024 02:07:35.230] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
-[28Nov2024 02:07:35.231] [modloading-worker-0/ERROR] [zeta/]: Client event interface org.violetmoon.zeta.client.event.load.ZClientSetup was found in a non client only class!
-[28Nov2024 02:07:35.232] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
-[28Nov2024 02:07:35.232] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
-[28Nov2024 02:07:35.233] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
-[28Nov2024 02:07:35.383] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/stunning-guacamole/servidor_minecraft/config/quark-common.toml is not correct. Correcting
-[28Nov2024 02:07:40.524] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
-[28Nov2024 02:07:42.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Atlas-Lib/1.20/update.json
-[28Nov2024 02:07:42.686] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [atlaslib] Found status: UP_TO_DATE Current: 1.1.12 Target: null
-[28Nov2024 02:07:42.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
-[28Nov2024 02:07:42.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
-[28Nov2024 02:07:42.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hordes] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/The-Hordes/1.20/update.json
-[28Nov2024 02:07:42.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hordes] Found status: UP_TO_DATE Current: 1.5.4 Target: null
-[28Nov2024 02:07:42.717] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
-[28Nov2024 02:07:42.782] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
-[28Nov2024 02:07:42.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Nov2024 02:07:42.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[28Nov2024 02:07:47.835] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[28Nov2024 02:07:47.836] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[28Nov2024 02:07:52.624] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Nov2024 02:07:56.235] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/stunning-guacamole/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
-[28Nov2024 02:07:56.236] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/stunning-guacamole/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
-[28Nov2024 02:07:58.544] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.548] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.549] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.565] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.568] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.570] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.571] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.576] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.577] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.578] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.579] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.579] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.580] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.581] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.583] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.584] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.586] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.586] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.587] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.587] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.589] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.595] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.600] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.601] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.602] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.602] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.606] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.607] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.607] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.608] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.609] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.609] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.610] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.611] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.611] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.611] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.612] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.614] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.615] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.617] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.617] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.618] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.618] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.619] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.619] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.621] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.621] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.621] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.622] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.624] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.625] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.626] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.630] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.631] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.632] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.633] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.634] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.635] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.636] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.637] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.638] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.646] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.649] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.650] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.650] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.652] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.653] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.653] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.655] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.656] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.657] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.659] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.659] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.661] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.663] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.663] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.668] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.669] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.670] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.672] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.672] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.674] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.676] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.676] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.677] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.678] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.679] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.679] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.680] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.682] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.683] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.684] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.685] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.686] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.687] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.687] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.688] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.689] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.690] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.691] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.692] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.693] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.694] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.696] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.697] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.700] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.701] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.704] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.705] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.706] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.707] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.708] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.708] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.712] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.713] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.713] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.714] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.715] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.716] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.716] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.716] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.717] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.717] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.718] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.718] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.718] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.720] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.721] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.721] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.722] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.722] [main/WARN] [quark-zeta/]: Non-existent flag andesite being used
-[28Nov2024 02:07:58.723] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.724] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.725] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.727] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.727] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.728] [main/WARN] [quark-zeta/]: Non-existent flag diorite being used
-[28Nov2024 02:07:58.728] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.728] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.728] [main/WARN] [quark-zeta/]: Non-existent flag granite being used
-[28Nov2024 02:07:58.729] [main/WARN] [quark-zeta/]: Non-existent flag calcite being used
-[28Nov2024 02:07:58.729] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.730] [main/WARN] [quark-zeta/]: Non-existent flag dripstone being used
-[28Nov2024 02:07:58.730] [main/WARN] [quark-zeta/]: Non-existent flag tuff being used
-[28Nov2024 02:07:58.733] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[28Nov2024 02:07:58.864] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 1165 recipe advancements
-[28Nov2024 02:07:58.872] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 138 advancements
-[28Nov2024 02:07:58.911] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
-[28Nov2024 02:07:58.911] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
-[28Nov2024 02:07:58.912] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
-[28Nov2024 02:07:58.912] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
-[28Nov2024 02:07:58.913] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
-[28Nov2024 02:07:58.913] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_effects with 1 patches
-[28Nov2024 02:07:58.913] [main/INFO] [quark-zeta/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
-[28Nov2024 02:07:58.913] [main/INFO] [quark-zeta/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
-[28Nov2024 02:07:58.914] [main/INFO] [quark-zeta/]: Modified advancement minecraft:nether/all_potions with 1 patches
-[28Nov2024 02:07:58.929] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 35, min day 0 and max day 20
-[28Nov2024 02:07:58.930] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_villager as entity.minecraft.zombie_villager with weight 1, min day 0 and max day 20
-[28Nov2024 02:07:58.930] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 20 and max day 40
-[28Nov2024 02:07:58.930] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 40, min day 20 and max day 40
-[28Nov2024 02:07:58.931] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
-[28Nov2024 02:07:58.932] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 40 and max day 40
-[28Nov2024 02:07:58.932] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 0
-[28Nov2024 02:07:58.932] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 25, min day 50 and max day 0
-[28Nov2024 02:07:58.933] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 3, min day 50 and max day 0
-[28Nov2024 02:07:58.933] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 50 and max day 0
-[28Nov2024 02:07:58.933] [main/INFO] [hordes/]: loaded horde table hordes:default
-[28Nov2024 02:07:58.933] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 40, min day 0 and max day 20
-[28Nov2024 02:07:58.934] [main/INFO] [hordes/]: Loaded entity minecraft:drowned as entity.minecraft.drowned with weight 3, min day 30 and max day 40
-[28Nov2024 02:07:58.934] [main/INFO] [hordes/]: loaded horde table hordes:drowned
-[28Nov2024 02:07:58.934] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 20, min day 0 and max day 20
-[28Nov2024 02:07:58.934] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 20 and max day 30
-[28Nov2024 02:07:58.934] [main/INFO] [hordes/]: Loaded entity minecraft:spider as entity.minecraft.spider with weight 15, min day 20 and max day 30
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:creeper as entity.minecraft.creeper with weight 5, min day 30 and max day 30
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:husk as entity.minecraft.husk with weight 20, min day 30 and max day 50
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 40 and max day 50
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 10, min day 40 and max day 50
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 40 and max day 50
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 10, min day 40 and max day 50
-[28Nov2024 02:07:58.935] [main/INFO] [hordes/]: Loaded entity minecraft:zombified_piglin as entity.minecraft.zombified_piglin with weight 10, min day 40 and max day 50
-[28Nov2024 02:07:58.936] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 3, min day 40 and max day 50
-[28Nov2024 02:07:58.936] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 50 and max day 0
-[28Nov2024 02:07:58.936] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 5, min day 50 and max day 50
-[28Nov2024 02:07:58.936] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 50 and max day 50
-[28Nov2024 02:07:58.936] [main/INFO] [hordes/]: Loaded entity minecraft:zoglin as entity.minecraft.zoglin with weight 5, min day 40 and max day 40
-[28Nov2024 02:07:58.937] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 50
-[28Nov2024 02:07:58.937] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 5, min day 50 and max day 50
-[28Nov2024 02:07:58.938] [main/INFO] [hordes/]: Loaded entity minecraft:piglin_brute as entity.minecraft.piglin_brute with weight 10, min day 60 and max day 0
-[28Nov2024 02:07:58.938] [main/INFO] [hordes/]: Loaded entity minecraft:cave_spider as entity.minecraft.cave_spider with weight 15, min day 60 and max day 0
-[28Nov2024 02:07:58.938] [main/INFO] [hordes/]: Loaded entity minecraft:zombie_horse as entity.minecraft.zombie_horse with weight 5, min day 60 and max day 0
-[28Nov2024 02:07:58.938] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 60 and max day 0
-[28Nov2024 02:07:58.939] [main/INFO] [hordes/]: Loaded entity minecraft:phantom as entity.minecraft.phantom with weight 3, min day 60 and max day 0
-[28Nov2024 02:07:58.939] [main/INFO] [hordes/]: loaded horde table hordes:mixed_mobs
-[28Nov2024 02:07:58.939] [main/INFO] [hordes/]: Loaded entity minecraft:pillager as entity.minecraft.pillager with weight 15, min day 0 and max day 0
-[28Nov2024 02:07:58.939] [main/INFO] [hordes/]: Loaded entity minecraft:vindicator as entity.minecraft.vindicator with weight 10, min day 0 and max day 0
-[28Nov2024 02:07:58.939] [main/INFO] [hordes/]: Loaded entity minecraft:witch as entity.minecraft.witch with weight 5, min day 20 and max day 0
-[28Nov2024 02:07:58.939] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 30 and max day 40
-[28Nov2024 02:07:58.940] [main/INFO] [hordes/]: Loaded entity minecraft:evoker as entity.minecraft.evoker with weight 3, min day 40 and max day 40
-[28Nov2024 02:07:58.940] [main/INFO] [hordes/]: Loaded entity minecraft:illusioner as entity.minecraft.illusioner with weight 5, min day 50 and max day 0
-[28Nov2024 02:07:58.940] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 3, min day 50 and max day 0
-[28Nov2024 02:07:58.940] [main/INFO] [hordes/]: Loaded entity minecraft:ravager as entity.minecraft.ravager with weight 5, min day 50 and max day 0
-[28Nov2024 02:07:58.941] [main/INFO] [hordes/]: loaded horde table hordes:illagers
-[28Nov2024 02:07:58.941] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 10, min day 0 and max day 20
-[28Nov2024 02:07:58.941] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton as entity.minecraft.skeleton with weight 20, min day 0 and max day 30
-[28Nov2024 02:07:58.942] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 20 and max day 50
-[28Nov2024 02:07:58.942] [main/INFO] [hordes/]: Loaded entity minecraft:stray as entity.minecraft.stray with weight 10, min day 20 and max day 0
-[28Nov2024 02:07:58.943] [main/INFO] [hordes/]: Loaded entity minecraft:wither_skeleton as entity.minecraft.wither_skeleton with weight 10, min day 40 and max day 0
-[28Nov2024 02:07:58.943] [main/INFO] [hordes/]: Loaded entity minecraft:skeleton_horse as entity.minecraft.skeleton_horse with weight 5, min day 40 and max day 0
-[28Nov2024 02:07:58.943] [main/INFO] [hordes/]: loaded horde table hordes:skeletons
-[28Nov2024 02:07:58.943] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
-[28Nov2024 02:07:58.944] [main/INFO] [hordes/]: loaded horde table hordes:fallback
-[28Nov2024 02:07:58.957] [main/INFO] [hordes/]: loaded horde script hordes:default
-[28Nov2024 02:07:58.959] [main/INFO] [hordes/]: Loading conversion tables
-[28Nov2024 02:07:58.960] [main/INFO] [hordes/]: Loading conversion table hordes:infection_conversions
-[28Nov2024 02:07:58.963] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.horse to entity.minecraft.zombie_horse with chance of 0.65
-[28Nov2024 02:07:58.963] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin to entity.minecraft.zombified_piglin with chance of 0.75
-[28Nov2024 02:07:58.966] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.piglin_brute to entity.minecraft.zombified_piglin{Attributes:[{Base:50.0f,Name:"generic.max_health"}],chat_name:"entity.hordes.ZombifiedPiglinBrute.name",texture:"hordes:textures/entity/zombified_piglin_brute.png"} with chance of 0.35
-[28Nov2024 02:07:58.967] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.hoglin to entity.minecraft.zoglin with chance of 0.15
-[28Nov2024 02:07:58.968] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.wandering_trader to entity.minecraft.zombie_villager{VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWanderingTrader.name",texture:"hordes:textures/entity/zombie_wandering_trader.png"} with chance of 0.75
-[28Nov2024 02:07:58.968] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.pillager to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombiePillager.name",texture:"hordes:textures/entity/zombie_pillager.png"} with chance of 0.75
-[28Nov2024 02:07:58.969] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.vindicator to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieVindicator.name",texture:"hordes:textures/entity/zombie_vindicator.png"} with chance of 0.35
-[28Nov2024 02:07:58.970] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.evoker to entity.minecraft.zombie_villager{Attributes:[{Base:24.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieEvoker.name",texture:"hordes:textures/entity/zombie_evoker.png"} with chance of 0.5
-[28Nov2024 02:07:58.970] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.illusioner to entity.minecraft.zombie_villager{Attributes:[{Base:32.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieIllusioner.name",texture:"hordes:textures/entity/zombie_illusioner.png"} with chance of 0.15
-[28Nov2024 02:07:58.971] [main/INFO] [hordes/]: Loaded conversion entity.minecraft.witch to entity.minecraft.zombie_villager{Attributes:[{Base:26.0f,Name:"generic.max_health"}],VillagerData:{type:"none"},chat_name:"entity.hordes.ZombieWitch.name",texture:"hordes:textures/entity/zombie_witch.png"} with chance of 0.25
-[28Nov2024 02:07:58.973] [main/INFO] [hordes/]: Loading immunity item list
-[28Nov2024 02:07:58.974] [main/INFO] [hordes/]: Loading immunity item list hordes:immunity_items
-[28Nov2024 02:07:58.974] [main/INFO] [hordes/]: Loaded immunity item minecraft:enchanted_golden_apple with duration 150
-[28Nov2024 02:07:58.975] [main/INFO] [hordes/]: Loading wearables protection list
-[28Nov2024 02:07:58.975] [main/INFO] [hordes/]: Loading wearables protection list hordes:immune_wearables
-[28Nov2024 02:07:58.977] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_boots with modifier 0.95
-[28Nov2024 02:07:58.977] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_leggings with modifier 0.95
-[28Nov2024 02:07:58.978] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_chestplate with modifier 0.95
-[28Nov2024 02:07:58.978] [main/INFO] [hordes/]: Loaded wearable protection minecraft:leather_helmet with modifier 0.95
-[28Nov2024 02:07:58.978] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_boots with modifier 0.95
-[28Nov2024 02:07:58.979] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_leggings with modifier 0.95
-[28Nov2024 02:07:58.979] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_chestplate with modifier 0.95
-[28Nov2024 02:07:58.980] [main/INFO] [hordes/]: Loaded wearable protection minecraft:chainmail_helmet with modifier 0.95
-[28Nov2024 02:07:58.980] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_boots with modifier 0.9
-[28Nov2024 02:07:58.981] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_leggings with modifier 0.9
-[28Nov2024 02:07:58.981] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_chestplate with modifier 0.9
-[28Nov2024 02:07:58.983] [main/INFO] [hordes/]: Loaded wearable protection minecraft:iron_helmet with modifier 0.9
-[28Nov2024 02:07:58.983] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_boots with modifier 0.9
-[28Nov2024 02:07:58.984] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_leggings with modifier 0.9
-[28Nov2024 02:07:58.985] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_chestplate with modifier 0.9
-[28Nov2024 02:07:58.986] [main/INFO] [hordes/]: Loaded wearable protection minecraft:golden_helmet with modifier 0.9
-[28Nov2024 02:07:58.986] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_boots with modifier 0.86
-[28Nov2024 02:07:58.986] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_leggings with modifier 0.86
-[28Nov2024 02:07:58.988] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_chestplate with modifier 0.86
-[28Nov2024 02:07:58.989] [main/INFO] [hordes/]: Loaded wearable protection minecraft:diamond_helmet with modifier 0.86
-[28Nov2024 02:07:58.990] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_boots with modifier 0.82
-[28Nov2024 02:07:58.991] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_leggings with modifier 0.82
-[28Nov2024 02:07:58.991] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_chestplate with modifier 0.82
-[28Nov2024 02:07:58.992] [main/INFO] [hordes/]: Loaded wearable protection minecraft:netherite_helmet with modifier 0.82
-[28Nov2024 02:07:58.992] [main/INFO] [hordes/]: Loaded wearable protection minecraft:turtle_helmet with modifier 0.75
-[28Nov2024 02:08:02.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[28Nov2024 02:08:02.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Nov2024 02:08:02.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Nov2024 02:08:02.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Nov2024 02:08:02.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Nov2024 02:08:03.067] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Nov2024 02:08:03.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28Nov2024 02:08:03.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28Nov2024 02:08:03.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28Nov2024 02:08:03.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28Nov2024 02:08:03.309] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Nov2024 02:08:09.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Nov2024 02:08:13.885] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.889] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.890] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.891] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.892] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.893] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.893] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.895] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:13.896] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:14.212] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Nov2024 02:08:14.712] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[28Nov2024 02:08:15.254] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[28Nov2024 02:08:15.821] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[28Nov2024 02:08:16.314] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[28Nov2024 02:08:16.764] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[28Nov2024 02:08:16.819] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7107 ms
-[28Nov2024 02:08:16.820] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.559s)! For help, type "help"
-[28Nov2024 02:08:16.846] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Nov2024 02:08:35.201] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vagabundi[/127.234.170.183:39673] logged in with entity id 75 at (195.93409530528024, 62.17675927506424, 561.0823487130315)
-[28Nov2024 02:08:35.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi joined the game
-[28Nov2024 02:27:09.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi fell from a high place
-[28Nov2024 02:27:10.303] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[28Nov2024 02:27:10.305] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
-[28Nov2024 02:28:09.075] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Vagabundi'/3122, l='ServerLevel[world]', x=209.50, y=63.00, z=530.51] died: Zombie Player was slain by Vagabundi
-[28Nov2024 02:31:17.425] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=168, y=73, z=507} BlockPos{x=169, y=72, z=509}
-[28Nov2024 02:34:28.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vagabundi lost connection: Disconnected
-[28Nov2024 02:34:28.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi left the game
-[28Nov2024 02:35:08.961] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vagabundi[/127.234.170.183:40193] logged in with entity id 4483 at (211.8907601311792, 63.0, 529.6999999880791)
-[28Nov2024 02:35:08.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi joined the game
-[28Nov2024 02:35:50.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Suit Up]
-[28Nov2024 02:37:53.455] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
-[28Nov2024 02:37:53.507] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
-[28Nov2024 02:37:53.555] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
-[28Nov2024 02:40:18.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi fell from a high place
-[28Nov2024 02:40:28.194] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[28Nov2024 02:40:28.195] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
-[28Nov2024 02:41:54.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Isn't It Iron Pick]
-[28Nov2024 02:43:23.864] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9367ms or 187 ticks behind
-[28Nov2024 03:12:23.354] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dani[/127.249.36.30:36527] logged in with entity id 16655 at (250.5, 101.0, 2.5)
-[28Nov2024 03:12:23.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani joined the game
-[28Nov2024 03:12:30.860] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Trying to start horde event on day 5 with nextDay 5 and time 18000
-[28Nov2024 03:12:30.863] [Server thread/INFO] [hordes/]: Applying script hordes:default for event net.smileycorp.hordes.common.event.HordeBuildSpawnDataEvent@73b6922d
-[28Nov2024 03:12:30.866] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 0
-[28Nov2024 03:12:30.866] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 0
-[28Nov2024 03:12:30.912] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:12:30.912] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:12:43.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported Vagabundi to dani]
-[28Nov2024 03:12:50.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> sigueme
-[28Nov2024 03:13:07.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> siguem
-[28Nov2024 03:13:20.904] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:13:20.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:13:38.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> rapido ya empesoi
-[28Nov2024 03:14:00.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
-[28Nov2024 03:14:03.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> puedes romper
-[28Nov2024 03:14:10.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Not Today, Thank You]
-[28Nov2024 03:14:10.902] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:14:10.903] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:14:29.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> sigueme
-[28Nov2024 03:14:48.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Stone Age]
-[28Nov2024 03:15:00.904] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:15:00.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:15:50.903] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:15:50.904] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:16:09.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> jajaaj
-[28Nov2024 03:16:40.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:16:40.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:16:40.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
-[28Nov2024 03:17:30.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:17:30.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:17:30.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
-[28Nov2024 03:18:20.910] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:18:20.911] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:18:20.913] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
-[28Nov2024 03:19:10.913] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:19:10.913] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:19:10.916] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
-[28Nov2024 03:20:00.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:20:00.907] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
-[28Nov2024 03:20:00.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
-[28Nov2024 03:20:18.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> ven
-[28Nov2024 03:22:45.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <dani> donde
-[28Nov2024 03:22:51.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported Vagabundi to dani]
-[28Nov2024 03:24:00.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
-[28Nov2024 03:24:23.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Hot Stuff]
-[28Nov2024 03:24:40.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
-[28Nov2024 03:25:13.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani was slain by Vagabundi
-[28Nov2024 03:25:15.124] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[28Nov2024 03:25:15.128] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
-[28Nov2024 03:25:19.463] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['dani'/19800, l='ServerLevel[world]', x=211.29, y=63.00, z=529.54] died: Zombie Player was slain by Vagabundi
-[28Nov2024 03:25:23.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
-[28Nov2024 03:25:27.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> duerma en cama
-[28Nov2024 03:25:31.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <dani> mrc no tenia comida
-[28Nov2024 03:25:48.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Hot Stuff]
-[28Nov2024 03:26:04.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Suit Up]
-[28Nov2024 03:26:31.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi was slain by Enderman
-[28Nov2024 03:26:33.353] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[28Nov2024 03:26:33.353] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
-[28Nov2024 03:26:42.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Getting an Upgrade]
-[28Nov2024 03:27:11.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> escucha
-[28Nov2024 03:27:17.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> nesesito piera
-[28Nov2024 03:27:40.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> con essos picos gastalos todos
-[28Nov2024 03:28:00.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <dani> ok
-[28Nov2024 03:28:00.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> nesesitamso mucha para poder hacer la granja yt poder conseguir polvora
+[03:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:41:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:41:44] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[03:41:44] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[03:41:44] [main/INFO] [FML]: Searching /workspaces/stunning-guacamole/servidor_minecraft/./mods for mods
+[03:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:41:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:41:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:41:45] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[03:41:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:41:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:41:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:41:46] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[03:41:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[03:41:48] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[03:41:48] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[03:41:48] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[03:41:48] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[03:41:49] [Server thread/INFO] [FML]: Config directory created successfully
+[03:41:49] [Server thread/INFO] [FML]: Searching /workspaces/stunning-guacamole/servidor_minecraft/./mods for mods
+[03:41:49] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[03:41:49] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[03:41:49] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[03:41:49] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[03:41:49] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[03:41:49] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[03:41:49] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[03:41:49] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[03:41:49] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[03:41:49] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03:41:49] [Server thread/INFO] [FML]: Applying holder lookups
+[03:41:49] [Server thread/INFO] [FML]: Holder lookups applied
+[03:41:49] [Server thread/INFO] [FML]: Applying holder lookups
+[03:41:50] [Server thread/INFO] [FML]: Holder lookups applied
+[03:41:50] [Server thread/INFO] [FML]: Applying holder lookups
+[03:41:50] [Server thread/INFO] [FML]: Holder lookups applied
+[03:41:50] [Server thread/INFO] [FML]: Applying holder lookups
+[03:41:50] [Server thread/INFO] [FML]: Holder lookups applied
+[03:41:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:41:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:41:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[03:41:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[03:41:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[03:41:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[03:41:50] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[03:41:50] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:41:50] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[03:41:50] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:41:50] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:41:50] [Server thread/INFO] [FML]: Applying holder lookups
+[03:41:50] [Server thread/INFO] [FML]: Holder lookups applied
+[03:41:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:41:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:41:50] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[03:41:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[03:41:50] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@58cdc3a6)
+[03:41:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[03:41:50] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[03:41:52] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@58cdc3a6)
+[03:41:52] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@58cdc3a6)
+[03:41:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[03:41:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
+[03:41:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 29%
+[03:41:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 47%
+[03:41:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 68%
+[03:41:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%
+[03:41:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (7.319s)! For help, type "help" or "?"
+[03:41:57] [Server thread/INFO] [FML]: Unloading dimension -1
+[03:41:57] [Server thread/INFO] [FML]: Unloading dimension 1
