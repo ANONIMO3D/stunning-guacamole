@@ -510,3 +510,13 @@
 [28Nov2024 02:27:09.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi fell from a high place
 [28Nov2024 02:27:10.303] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
 [28Nov2024 02:27:10.305] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[28Nov2024 02:28:09.075] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Vagabundi'/3122, l='ServerLevel[world]', x=209.50, y=63.00, z=530.51] died: Zombie Player was slain by Vagabundi
+[28Nov2024 02:31:17.425] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=168, y=73, z=507} BlockPos{x=169, y=72, z=509}
+[28Nov2024 02:34:28.656] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vagabundi lost connection: Disconnected
+[28Nov2024 02:34:28.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi left the game
+[28Nov2024 02:35:08.961] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vagabundi[/127.234.170.183:40193] logged in with entity id 4483 at (211.8907601311792, 63.0, 529.6999999880791)
+[28Nov2024 02:35:08.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi joined the game
+[28Nov2024 02:35:50.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Suit Up]
+[28Nov2024 02:37:53.455] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
+[28Nov2024 02:37:53.507] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
+[28Nov2024 02:37:53.555] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=244, y=106, z=568} BlockPos{x=244, y=104, z=568}
