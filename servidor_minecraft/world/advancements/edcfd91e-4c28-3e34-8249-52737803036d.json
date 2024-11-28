@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lukewarm_ocean": "2024-11-28 03:13:09 +0000",
+      "minecraft:savanna": "2024-11-28 03:12:24 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

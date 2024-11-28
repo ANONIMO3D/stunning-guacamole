@@ -525,3 +525,35 @@
 [28Nov2024 02:40:28.195] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
 [28Nov2024 02:41:54.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Isn't It Iron Pick]
 [28Nov2024 02:43:23.864] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9367ms or 187 ticks behind
+[28Nov2024 03:12:23.354] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: dani[/127.249.36.30:36527] logged in with entity id 16655 at (250.5, 101.0, 2.5)
+[28Nov2024 03:12:23.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani joined the game
+[28Nov2024 03:12:30.860] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Trying to start horde event on day 5 with nextDay 5 and time 18000
+[28Nov2024 03:12:30.863] [Server thread/INFO] [hordes/]: Applying script hordes:default for event net.smileycorp.hordes.common.event.HordeBuildSpawnDataEvent@73b6922d
+[28Nov2024 03:12:30.866] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 0
+[28Nov2024 03:12:30.866] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 0
+[28Nov2024 03:12:30.912] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:12:30.912] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:12:43.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported Vagabundi to dani]
+[28Nov2024 03:12:50.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> sigueme
+[28Nov2024 03:13:07.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> siguem
+[28Nov2024 03:13:20.904] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:13:20.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:13:38.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> rapido ya empesoi
+[28Nov2024 03:14:00.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vagabundi: Teleported dani to Vagabundi]
+[28Nov2024 03:14:03.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> puedes romper
+[28Nov2024 03:14:10.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vagabundi has made the advancement [Not Today, Thank You]
+[28Nov2024 03:14:10.902] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:14:10.903] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:14:29.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> sigueme
+[28Nov2024 03:14:48.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dani has made the advancement [Stone Age]
+[28Nov2024 03:15:00.904] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:15:00.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:15:50.903] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:15:50.904] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:16:09.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Vagabundi> jajaaj
+[28Nov2024 03:16:40.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:16:40.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:16:40.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
+[28Nov2024 03:17:30.905] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie,weight=35,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:17:30.906] [Server thread/INFO] [hordes/]: Adding entry HordeSpawnEntry[type=entity.minecraft.zombie_villager,weight=1,minDay=0,maxDay=20] to hordespawn on day 5
+[28Nov2024 03:17:30.907] [Server thread/INFO] [hordes/]: [net.smileycorp.hordes.hordeevent.capability.HordeEvent@6cc70acb]Can't spawn wave because max cap has been reached
